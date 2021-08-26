@@ -1,0 +1,3 @@
+FLutuação(float) Nesse modelo de posicionamento o elemento sai do fluxo normal e é posicionado totalmente a esquerda ou a direita do contêiner que o contém, A caixa do elemento se ajusta ao redor dele.Nesse exemplo movemos a area da p[ágina em duas colunas]
+
+o código que foi inserido para a tag div, mostra que a borda do div será preta e possui uma largura de borda de 1px, isso acontece devido ao div possuir 0 de altura, assim as bordas se encostam, para corrigir esse erro basta utilizarmos as propriedades <overflow e width em conjunto tendo como valor 100%>

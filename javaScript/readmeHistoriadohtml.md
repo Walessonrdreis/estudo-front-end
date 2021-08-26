@@ -1,0 +1,1 @@
+Em 1990 Timbernesli tanto html r o http, foi sugerido por ele em 1991 suge o primeiro web site, precisava de vavegador e existia alguns, em 1992 surgiu o navegador MOsaic fo desenvolvido no ncsa depois em 1994 o nestcape

@@ -1,0 +1,19 @@
+p{ 
+    /*Preenchimento do topo*/
+    padding-top: 10px;
+
+    /*Preenchimento direito*/
+    padding-right: 25px;
+
+    /*Preenchimento do fundo*/
+    padding-bottom: 20px;
+
+    /*Preenchimento esquerdo*/
+    padding-left: 50px;
+ 
+    /*Padding simplificado com quatro sub-propriedades*/
+    padding: 10px 25px 20px 50px;
+
+    /*Padding com duas sub-propriedades*/
+    padding:10px 20px;
+}

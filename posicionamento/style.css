@@ -1,0 +1,29 @@
+.relative-parent{
+    background: #156236;
+}
+.relative {
+    background: #af8542;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+.absolute {
+    background: #c590f5;
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 35px;
+    right: 32px;
+
+}
+.fixed {
+    background: #a4c467;
+    height: 50px;
+    width: 300px;
+    position: fixed;
+    bottom: 60px;
+    right: 32px;
+    
+}

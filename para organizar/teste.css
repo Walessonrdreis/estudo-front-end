@@ -1,0 +1,62 @@
+a {color: maroon;}
+div {background-color: black; border:1px  ; border-style: solid;bor}
+* {font-family: arial Black;}
+/* *************TESTES CSS NEGRITO**********************/
+a {font-weight:400;}
+/*  para remover negrito aplicando 400 ou*/
+h1 {
+    font-weight:400;
+}
+
+h1 {
+    font-weight:normal;
+}
+
+/* aplicando negrito com bold ou 700*/
+p {
+    font-weight:700;
+}  /*ou*/                                                                                                                                                              
+p {
+    font-weight:bold
+}
+/**************ITÁLICO**************/
+/*Aplicando italic a um elemento*/
+p {
+    font-style:italic;
+
+}
+/*Removendo itálic de um elemento*/
+p {
+    font-style:normal;
+}
+/*********************COR*******************/
+p {
+    color:red;/*em texto*/
+}
+p {
+    color:#ff0000;/*em hexadecimal*/
+}
+/*******Funçoes de cor************/
+/****rgb cor verde****/
+p {
+    color:rgb(81, 155, 0);
+}
+/********rgba 0.5 de semitransparência***********/
+a {color: rgba(81, 155, 0, 0.5)
+}
+/*******Tamanho da fonte**********/
+p {
+    font-size:22px;
+}
+/*********FONTE************/
+p {
+    font-family:"Arial Black", Gadget, sans-serif;/*a primeira opção é aril..., se o navegador n
+    suporta então usará a segunda e se mesmo assim nçao aceitar ira usar
+    a terceira opção, lembrando que são da mesma familia*/
+}
+
+/********ALInhamento*********/
+p {
+    text-align: center;
+    
+}

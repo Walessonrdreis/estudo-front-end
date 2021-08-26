@@ -1,0 +1,18 @@
+div {
+    border: 1px solid #000;
+    /*importante para evitar o erro de altura 0 px* que causa uma linha superior, a invez de formar as bortas em todo o espaço da propriedade*/
+    overflow: auto;
+    width: 100%;
+}
+
+h3 {
+    /*teste de posicionamento pra a direita*/
+    float: left;
+    width: 200px;
+
+}
+ul {
+    /*Teste de posicionamento para a direita*/
+    float: right;
+    width: 200px;
+}

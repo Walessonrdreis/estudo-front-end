@@ -1,0 +1,30 @@
+div { border-style: solid; border-width: 2px; border-color: black;}
+#cabecalho{height: 150px;}
+#corpo{ height:300px;}
+#rodape{height:100px}
+#parte_inferior{height: 100px}
+#parte_superior{height:100px;}
+
+
+
+#cabecalho h3{
+    text-align: center;
+    border: solid 1px;
+   
+    
+    
+}
+
+#cabecalho p {
+    margin-top 2px;
+    text-align: justify;
+    /*preenchimento topo*/
+    padding-top: 1px;
+     /*fundo*/
+    padding-bottom: 10px;
+     /*esquerda*/
+    padding-left: 20px;
+     /*direita*/
+    padding-right: 10px;
+    /*ou   padding:1px 10px 20px 10px;*/
+}

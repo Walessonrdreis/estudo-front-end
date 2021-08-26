@@ -1,0 +1,22 @@
+#foto img{
+    border: solid 0px;
+    height: 500px;
+    width: 500px;
+    /* mudando o formato da borda, assim como os outrs
+    possui topo, fundo, direita e esquerda opcional*/
+    border-radius: 50%;
+
+    box-shadow: 10px 10px 10px 20px rgb(12, 143, 75);
+}
+.foto2 img{
+    height: 100px;
+    width: 100px;
+    border-width: 1000px;
+    
+    border-radius: 50%;
+    
+    /*border-image:url(WalaseDany.jpg) 30 30 repeat ;
+    -moz-border-image: url(WalaseDany.jpg) 30 30 repeat;
+    -webkit-border-image: url(WalaseDany.jpg) 30 30 repeat;*/
+    
+}

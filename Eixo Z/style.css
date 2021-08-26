@@ -1,0 +1,27 @@
+#posiciona1 {
+    background-color: #f00;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    z-index: 5;
+}
+
+#posiciona2 {
+    background-color: #0f0;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 65px;
+    z-index: 4;
+
+}
+#posiciona3 {
+    background-color: #00f;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+}
+/*No código a cima (sem uso da propriedade top) só será exibido apenas uma caixa box, qua é o ultimo
+Isso aconece porque os elementos vão recebendoa automaticamente valores de z-index=1, e z-index=2 e assoim por diante.Nesse caso como o último box fica com o maior z-index, é ele quem aparece da frente*/

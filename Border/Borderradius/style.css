@@ -1,0 +1,50 @@
+.btn{
+    /*Definindo a cor do texto*/
+    color: #FFF;
+
+    /*cor de fundo, ou do espaço depois restante*/
+    background-color: green/*ou #008000*/;
+
+    /*Removendo a borda*/
+    border: none;
+
+    /*Altura do botão*/
+     height: 60px;
+
+    /* esse comando serve para definir a onde as 
+    palavras ficaram no nosso caso no nosso caso nametade da altura que é 30px * em resumo ela sentraliza o verticalmente o texto do cursor o valor dessa propriedade deve ser sempre a mwtade da altura do elemento*/
+     line-height: 30px;
+
+    /* preenchimento, sendo altura e fundo 0 e lado direito e esquerdo 20px*/
+     padding: 0 20px;
+
+    /* Informa que o texto tera apenas letras maiúsculas independente do valor inserido no html */
+     text-transform: uppercase;
+
+    /* largura da fonte, no nosso caso é negrito*/
+     font-weight: bold ;/*ou como valor de 700-900*/
+
+    /*Por meio dessa propriedade, garante que o botão sempre terá o ponteiro como cursor, ou seja, no momento em que p mause estiver no botão, teremos esse tipode cursor*/
+    cursor: pointer;
+} 
+.bbtn{
+    color: #FFF;
+    background-color: #008000;
+    font-weight: bold;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}  
+.bbtn {
+    border-radius: 30px;
+}
+/*:hover serve para dar um leeve aumento na propriedade quando o mause junto com o cursor passa pelo item, no nosso caso o botão
+Classe CSS dvm-button no momento do vhover, ação de manter o cursor sobre o elemento. Nesse caso, apenas utilizamos a propriedade transform para aumentar ligeiramente o botão.
+*/
+.bbtn:hover {
+    transform: scale(1.05);
+}

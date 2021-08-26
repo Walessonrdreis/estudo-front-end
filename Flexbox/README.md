@@ -1,0 +1,1 @@
+Flexbos te a função de realizar uma auto- organização de contéudo, lado a lado. Normalmente será colocado onde você avai ptrabalhar de forma flexicivel no site
