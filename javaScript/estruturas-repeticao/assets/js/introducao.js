@@ -36,12 +36,29 @@ demo1.innerHTML = text1;
  let valor_produto = 500;
  let text2 = "";
 
-for ( let contador = 1; contador <= 5; contador++ )
+for ( let contador = 1; contador <= 6; contador++ )
 {
     let valor_parcela = valor_produto / contador;
     text2 += "Nº de parcelas: " + contador + " - Valor da parcela: R$" + valor_parcela.toFixed(2) +"<br>";
 }
-demo2.innerHTML = text2
+demo2.innerHTML = text2;
+//
+let valor_produto1 = 500;
+let text3 = "";
+let total_parcelas = 4; // valor informado pelo usuário
+
+for ( let contador = 1; contador <= total_parcelas; contador++ )
+{
+    let valor_parcela = valor_produto1 / contador;
+    text3 += "Nº de parcelas: " + contador + " - Valor da parcela: R$" + valor_parcela.toFixed(2)+"<br>";
+}
+demo3.innerHTML = text3;
+
+// Nº de parcelas: 1 - Valor da parcela: R$500.00
+// Nº de parcelas: 2 - Valor da parcela: R$250.00
+// Nº de parcelas: 3 - Valor da parcela: R$166.67
+// Nº de parcelas: 4 - Valor da parcela: R$125.00
+
 
 //exemplo documentação Mozilla
 function howMany(selectObject) {
