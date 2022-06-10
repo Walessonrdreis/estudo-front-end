@@ -3,6 +3,7 @@ var demo = document.getElementById('demo');
 var demo1 = document.getElementById('demo1');
 var demo2 = document.getElementById('demo2');
 var demo3 = document.getElementById('demo3');
+var demo4_1 = document.getElementById('demo4_1');
 var demo4 = document.getElementById('demo4');
 var demo5 = document.getElementById('demo5');
 var demo6 = document.getElementById('demo6');
@@ -54,10 +55,19 @@ for ( let contador = 1; contador <= total_parcelas; contador++ )
 }
 demo3.innerHTML = text3;
 
-// Nº de parcelas: 1 - Valor da parcela: R$500.00
-// Nº de parcelas: 2 - Valor da parcela: R$250.00
-// Nº de parcelas: 3 - Valor da parcela: R$166.67
-// Nº de parcelas: 4 - Valor da parcela: R$125.00
+let numero = 3;
+let contador2 = 0;
+
+demo4_1.innerHTML = "Tabuada de multiplicação -N°" + numero;
+
+
+
+
+
+
+
+
+
 
 
 //exemplo documentação Mozilla
