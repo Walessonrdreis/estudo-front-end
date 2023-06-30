@@ -38,7 +38,7 @@ ___
 
 Referência do <strong><a href="https://www.w3schools.com/csSref/playdemo.asp?filename=playcss_transform" style="color:#389;"><em>transform</em></a></strong>. 
 ___
-13. <strong><em><code>visibility</code></em></strong>:
+13. <strong><em><code>visibility</code></em></strong>:Determina a visibilidade do elemento escolhido 
 ___
 14. <strong><em><code>opacity</code></em></strong>:
 ___
