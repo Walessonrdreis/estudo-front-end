@@ -72,7 +72,7 @@ ___
 31. <strong><em><code>outline-color</code></em></strong>: 
 32. <strong><em><code>cursor</code></em></strong>: 
 33. <strong><em><code>filter</code></em></strong>: Para acessibilidade por, contraste, opacidade...
-34. <strong><em><code>min-width</code></em></strong>: 
+34. <strong><em><code>text-decoration</code></em></strong>: Tracejado da fonte 
 35. <strong><em><code>min-width</code></em></strong>: 
 36. <strong><em><code>min-width</code></em></strong>: 
 37. <strong><em><code>min-width</code></em></strong>: 
