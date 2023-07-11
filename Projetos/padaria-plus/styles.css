@@ -1,56 +1,64 @@
-body{
+body {
     margin: 0 auto;
     background-color: #f4f0e5;
     font-family: "Tahoma";
 }
 
-.secao{
-  border: 1px #542f0c solid ;
+.secao {
     width: 80%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.secao-logotipo{
+
+.secao-logotipo {
     font-size: 16px;
     border-bottom: 2px solid #542f0c;
 }
-.secao-logotipo img{
+
+.secao-logotipo img {
     width: 30vh;
 }
-.secao-logotipo a{
+
+.secao-logotipo a {
     text-decoration: none;
     color: #542f0c;
-letter-spacing: 0.1vh;
-margin:0 5px;
+    letter-spacing: 0.1vh;
+    margin: 0 5px;
 }
 
-div.secao-sobre{
+div.secao-sobre {
     font-size: 1em;
 }
-div.secao-sobre h2{
+
+div.secao-sobre h2 {
     color: #de8e37;
 }
-div.secao-sobre img.imagem-banner{
+
+div.secao-sobre img.imagem-banner {
     width: 100%;
 }
 
-div.secao-produtos{
+div.secao-produtos {
     background-color: #de8e37;
     color: #f4f0e5;
-    
+
 }
-div.secao-produtos img{
+
+div.secao-produtos img {
     width: 60%;
 }
-div.secao-produtos h3{
+
+div.secao-produtos h3 {
     padding-top: 50px;
-    
+
 }
-div.secao-produtos h3, div.secao-produtos h4{
+
+div.secao-produtos h3,
+div.secao-produtos h4 {
     font-size: 20px;
-    font-weight:bold;
-    
+    font-weight: bold;
+
 }
 
 div.secao-produtos p {
@@ -60,4 +68,9 @@ div.secao-produtos p {
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 400;
+}
+
+div.secao-rodape span {
+    font-weight: bold;
+
 }
