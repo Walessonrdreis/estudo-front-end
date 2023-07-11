@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    background-color: #f4f0e5;
+    font-family: "Tahoma";
+}
+
+.secao{
+  
+    width: 80%;
+    text-align: center;
+    margin: 40px auto;
+    padding-bottom: 20px;
+}
+.secao-logotipo{
+    font-size: 16px;
+    border-bottom: 2px solid #542f0c;
+}
+.secao-logotipo img{
+    width: 30vh;
+}
+.secao-logotipo a{
+    text-decoration: none;
+    color: #542f0c;
+letter-spacing: 0.1vh;
+margin:0 5px;
+}
