@@ -16,8 +16,7 @@
 `Ctrl + Enter Inserir linha abaixo
 `Ctrl + Shift + Enter Inserir linha acima
 `Ctrl + Shift + \ Ir para o suporte correspondente
-`Ctrl +] / [linha Indent / outdent
-Home / End Ir para o começo / fim da linha
+`Ctrl +] / [linha Indent / outdent Home / End` Ir para o começo / fim da linha
 `Ctrl + Home Ir para o início do arquivo
 `Ctrl + End Ir para o final do arquivo
 `Ctrl + ↑ / ↓ Linha de rolagem para cima / baixo
