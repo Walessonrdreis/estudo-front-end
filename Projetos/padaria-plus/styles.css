@@ -5,10 +5,10 @@ body{
 }
 
 .secao{
-  
+  border: 1px #542f0c solid ;
     width: 80%;
     text-align: center;
-    margin: 40px auto;
+    margin: 10px auto;
     padding-bottom: 20px;
 }
 .secao-logotipo{
@@ -35,3 +35,28 @@ div.secao-sobre img.imagem-banner{
     width: 100%;
 }
 
+div.secao-produtos{
+    background-color: #de8e37;
+    color: #f4f0e5;
+    
+}
+div.secao-produtos img{
+    width: 60%;
+}
+div.secao-produtos h3{
+    padding-top: 50px;
+    
+}
+div.secao-produtos h3, div.secao-produtos h4{
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+
+div.secao-produtos p {
+    text-align: center;
+    padding: 0 15%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
