@@ -24,3 +24,14 @@ body{
 letter-spacing: 0.1vh;
 margin:0 5px;
 }
+
+div.secao-sobre{
+    font-size: 1em;
+}
+div.secao-sobre h2{
+    color: #de8e37;
+}
+div.secao-sobre img.imagem-banner{
+    width: 100%;
+}
+
