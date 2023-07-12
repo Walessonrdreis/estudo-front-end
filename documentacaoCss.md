@@ -73,6 +73,42 @@ ___
 32. <strong><em><code>cursor</code></em></strong>: 
 33. <strong><em><code>filter</code></em></strong>: Para acessibilidade por, contraste, opacidade...
 34. <strong><em><code>text-decoration</code></em></strong>: Tracejado da fonte 
+
+35. <strong><em><code>background-image</code></em></strong>: Define uma imagem de fundo.
+36. <strong><em><code>background-repeat</code></em></strong>: Define como a imagem de fundo deve ser repetida.
+
+37. <strong><em><code>background-position</code></em></strong>: Define a posição inicial da imagem de fundo.
+
+38. <strong><em><code>background-size</code></em></strong>: Define o tamanho da imagem de fundo.
+
+39. <strong><em><code>background-origin</code></em></strong>: Define a origem do posicionamento da imagem de fundo.
+
+40. <strong><em><code>background-clip</code></em></strong>: Define a área em que a imagem de fundo será exibida.
+
+41. <strong><em><code>background-attachment</code></em></strong>: Define se a imagem de fundo deve rolar com o conteúdo ou permanecer fixa.
+
+42. <strong><em><code>background-blend-mode</code></em></strong>: Define o modo de mesclagem de várias imagens de fundo.
+
+43. <strong><em><code>background-repeat-x</code></em></strong>: Define como a imagem de fundo deve ser repetida horizontalmente.
+
+44. <strong><em><code>background-repeat-y</code></em></strong>: Define como a imagem de fundo deve ser repetida verticalmente.
+
+45. <strong><em><code>background-position-x</code></em></strong>: Define a posição horizontal da imagem de fundo.
+
+46. <strong><em><code>background-position-y</code></em></strong>: Define a posição vertical da imagem de fundo.
+
+47. <strong><em><code>background-clip-text</code></em></strong>: Define a área de recorte do plano de fundo para o texto.
+
+48. <strong><em><code>background-clip-padding</code></em></strong>: Define a área de recorte do plano de fundo para o preenchimento.
+
+49. <strong><em><code>background-clip-content</code></em></strong>: Define a área de recorte do plano de fundo para o conteúdo.
+
+50. <strong><em><code>background-origin-text</code></em></strong>: Define a origem do posicionamento do plano de fundo em relação ao texto.
+
+51. <strong><em><code>background-origin-padding</code></em></strong>: Define a origem do posicionamento do plano de fundo em relação ao preenchimento.
+
+52. <strong><em><code>background-origin-content</code></em></strong>: Define a origem do posicionamento do plano de fundo em relação ao conteúdo.
+
 35. <strong><em><code>min-width</code></em></strong>: 
 36. <strong><em><code>min-width</code></em></strong>: 
 37. <strong><em><code>min-width</code></em></strong>: 
