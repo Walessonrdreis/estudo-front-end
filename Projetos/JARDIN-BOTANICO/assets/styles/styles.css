@@ -5,6 +5,8 @@
 
 .limita-largura{
     width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
