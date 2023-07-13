@@ -38,6 +38,7 @@ h1,h2,h3{
 .img-conteudo{
     width: 250px;
     height: 180px;
+    
 }
 
 .secao-conteudo-span{
@@ -51,9 +52,10 @@ h1,h2,h3{
     padding: 50px 0;
     text-align: center;
     background-image: url('../img/fundo.jpg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
     background-size: cover;
     background-attachment: fixed;
+    
     
     
 }
