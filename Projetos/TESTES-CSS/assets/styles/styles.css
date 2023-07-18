@@ -1,0 +1,10 @@
+/* tag absolute*/
+img{
+    width: 100px;
+}
+h2{
+    color: #ff0000;
+    position: absolute;
+    top: 225px;
+    left: 310px;
+}
