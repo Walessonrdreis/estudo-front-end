@@ -1,6 +1,6 @@
 /*
 classes e tags: 
-header, ul.links, li, a
+header#topo, ul.links, li, a
 //
 section.banner, h1
 //
@@ -14,3 +14,55 @@ footer p.icone-topo a img, p, p
 
 
 */
+:root{
+    --color-text-one:#c4a47c;
+    --color-text-two:#666;
+    --background-color-menu:#604829;
+    --color-white:#fff;
+    --color-border:#acacac;
+    --color-black:#000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+}
+/*TOPO*/
+header#topo{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+    background-color: var(--background-color-menu);
+}
+header#topo img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 150px;
+}
+header#topo .links .lista{
+    display: inline;
+    position: absolute;
+    padding: 0 10px;
+    top: 20px;
+    
+    
+
+}
+header#topo .links  .informacoes{
+    right: 120px;
+}
+header#topo .links  .contatos{
+    right: 247px;
+}
+header#topo .links  .horarios{
+    right: 347px;
+}
+header#topo .links .lista a{
+    text-decoration: none;
+    color: var(--color-text-one);
+    font-size: 14px;
+    text-shadow: 2.3px 2.3px 1px var(--color-black);
+}
+/*banner*/
