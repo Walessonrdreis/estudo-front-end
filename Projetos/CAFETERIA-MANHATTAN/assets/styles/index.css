@@ -27,7 +27,8 @@ footer p.icone-topo a img, p, p
     padding: 0;
     font-family: 'Fraunces', serif;
     box-sizing: border-box;
-    border: 1px solid;
+   
+ 
 }
 
 /*TOPO*/
@@ -160,11 +161,49 @@ section#informacoes div.parallax-2 h3{
 
 
 }
+/*section contatos*/
+section#contatos{
+    height:100vh ;
+    background-image: url(../img/parallax-imagem4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: var(--color-white);
+}
+    
+
+
+/*section horarios*/
+section#horarios{
+    position: relative;
+    height: 91.5vh;
+    background-image: url(../img/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    
+
+}
+section#horarios h2{
+    text-align: center;
+}
+section#horarios .lista li div{
+    width: 60%;
+    height: 1px;
+    background-color: var(--color-border);
+}
+
+
+    
+
 
 
 /*icone topo*/
 .footer{
     position: relative;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
    
    
   
@@ -175,6 +214,6 @@ section#informacoes div.parallax-2 h3{
   width: 60px;
    right: 50px;
    bottom: 80px;
-   border: 1px solid;
+   
     
 }
