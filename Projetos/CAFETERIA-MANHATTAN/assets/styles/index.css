@@ -4,9 +4,9 @@ header#topo, ul.links, li, a
 //
 section.banner, h1
 //
-section#informacoes, div.textos h2 p, div.parallax-1 h3
+section#informacoes, div.textos h2 p, div.parallax-1 h3 div.parallax-2 h3
 //
-section#contatos h2 iframe p p p, div.parallax-2 h3
+section#contatos h2 iframe p p p, 
 //
 section#horarios h2 ul+7li h3 p
 //
@@ -26,8 +26,8 @@ footer p.icone-topo a img, p, p
     margin: 0;
     padding: 0;
     font-family: 'Fraunces', serif;
-    border: 1px solid #000;
     box-sizing: border-box;
+    border: 1px solid;
 }
 
 /*TOPO*/
@@ -101,27 +101,80 @@ section#informacoes{
 }
 section#informacoes div.textos{
     width: 100%;
-    height: 35vh;
-    padding: 0 40px;
+    height: 300px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 45px;
 
 }
 section#informacoes div.textos h2{
   
     color: var(--color-text-one);
     font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
    
 
 }
 section#informacoes div.textos p{
-    margin-top: 20px;
+    margin: 0 auto;
     color: var(--color-text-two);
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 16px;
-    margin: 1%  20% 0 20%;
+    padding: 0 21%;
     line-height: 24px;
+    width: 890px;
+    min-width: 100%;
+   
    
 
+}
+section#informacoes div.parallax-1,
+section#informacoes div.parallax-2{
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding-top: 140px;
+   
+}
+section#informacoes div.parallax-1{
+    background-image: url(../img/parallax-imagem2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#informacoes div.parallax-2{
+    background-image: url(../img/parallax-imagem3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#informacoes div.parallax-1 h3,
+section#informacoes div.parallax-2 h3{
+    margin: 0 auto;
+    font-family: 'frauces', serif ;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    background-color: var(--background-color-menu);
+    color: var(--color-white);
+    width: 340px;
+    padding: 10px 20px;
+
+
+}
+
+
+/*icone topo*/
+.footer{
+    position: relative;
+   
+   
+  
+}
+
+.footer p.icone-topo img {
+  position:absolute;
+  width: 60px;
+   right: 50px;
+   bottom: 80px;
+   border: 1px solid;
+    
 }
