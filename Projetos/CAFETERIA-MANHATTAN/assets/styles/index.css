@@ -169,7 +169,58 @@ section#contatos{
     background-size: cover;
     text-align: center;
     color: var(--color-white);
+    position: relative;
 }
+section#contatos h2{
+    color: var(--color-white);
+    background-color: var(--background-color-menu);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 350px;
+    font-family: 'Lato', sans-serif;
+    top: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    
+  
+    
+   
+}section#contatos iframe{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    top: 30%;
+    
+    
+   
+}
+section#contatos .box-contatos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color-menu);
+    color: var(--color-white);
+    font-family: 'frauces', serif ;
+}
+section#contatos .box-contatos p{
+    line-height: 26px;
+    text-shadow: #000000 1px 2px 3px;
+}
+section#contatos .box-contatos a{
+    text-decoration: none;
+    color:var(--color-white) ;
+}
+
     
 
 
@@ -181,16 +232,49 @@ section#horarios{
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-white);
+    padding-top: 200px;
+    margin: o auto;
+
+   
     
 
 }
 section#horarios h2{
     text-align: center;
+    margin-bottom: 50px;
+    
+}
+section#horarios .lista{
+    width: 50%;
+    margin: 0 auto;
 }
 section#horarios .lista li div{
-    width: 60%;
+    width: 70%;
     height: 1px;
     background-color: var(--color-border);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 50%;
+}
+section#horarios .lista li {
+    margin: 20px 0;
+    list-style: none;
+  position: relative;
+ 
+
+}
+section#horarios .lista li span{
+    color: var(--color-text-one);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px;
+}
+section#horarios .lista li p,section#horarios .lista li span{
+position: absolute;
+  top: 0;
+  right: 0;
+  
 }
 
 
@@ -204,8 +288,8 @@ section#horarios .lista li div{
     background-color: var(--color-black);
     color: var(--color-white);
     text-align: center;
-   
-   
+    line-height: 30px;
+   padding-top: 10px;
   
 }
 
