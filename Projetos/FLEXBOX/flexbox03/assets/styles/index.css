@@ -21,6 +21,7 @@ body {
 .container-topo {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     padding: 35px 50px;
     gap: 20px;
