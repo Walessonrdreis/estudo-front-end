@@ -226,54 +226,61 @@ section#contatos .box-contatos a{
 
 /*section horarios*/
 section#horarios{
-    position: relative;
-    height: 91.5vh;
+   
+ 
     background-image: url(../img/cafeteria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-white);
-    padding-top: 200px;
-    margin: o auto;
-
-   
-    
-
+    padding: 100px 20px;
+    margin: 0 auto;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 section#horarios h2{
-    text-align: center;
-    margin-bottom: 50px;
+ 
+    margin-bottom: 30px;
+   
     
 }
 section#horarios .lista{
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 768px;
+
+   
+   
+    
 }
 section#horarios .lista li div{
-    width: 70%;
     height: 1px;
     background-color: var(--color-border);
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: 50%;
+    flex: 1 1 auto;
+    
+   
 }
 section#horarios .lista li {
-    margin: 20px 0;
+    margin-bottom: 15px ;
     list-style: none;
-  position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  
  
 
 }
-section#horarios .lista li span{
+section#horarios .lista li h3{
+    flex: 0 1 100px;
+}
+section#horarios .lista li   span{
     color: var(--color-text-one);
-    font-weight: bold;
-    text-shadow: 1px 1px 5px;
+   
+
 }
 section#horarios .lista li p,section#horarios .lista li span{
-position: absolute;
-  top: 0;
-  right: 0;
+text-align: right;
+flex: 0 1 120px;
   
 }
 
