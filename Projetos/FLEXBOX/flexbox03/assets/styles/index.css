@@ -1,0 +1,73 @@
+/*
+.container-topo
+.container-logo, .container-logo div h1, .container-logo div p .container-logo div
+.container-logo-imagem
+.container-links
+*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    padding: 0px 0px;
+}
+
+.container-topo {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 35px 50px;
+    gap: 20px;
+}
+
+.container-logo {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.container-logo p {
+    color: #2f86d6;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.container-logo-imagem {
+    width: 100px;
+    height: 100%;
+
+}
+
+.container-logo-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-links {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+
+}
+
+.container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+}
