@@ -1,0 +1,132 @@
+/*
+.container-topo
+.container-logo, .container-logo div h1, .container-logo div p .container-logo div
+.container-logo-imagem
+.container-links
+*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+/*topo*/
+body {
+    padding: 0px 0px;
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px 50px;
+    gap: 20px;
+}
+
+.container-topo  .container-logo {
+    width: 285px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.container-topo  .container-logo p {
+    color: #2f86d6;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.container-topo  .container-logo .container-logo-imagem {
+    width: 100px;
+    height: 100%;
+
+}
+
+.container-topo  .container-logo .container-logo-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-topo  .container-links {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+
+}
+
+.container-topo  .container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+}
+/*banner*/
+/*
+.secao-banner
+.secao-banner container
+.secao-banner container container-texto
+.secao-banner container container-texto p
+.secao-banner container container-texto h2
+.secao-banner container-imagem
+.secao-banner container-imagem img
+
+*/
+.secao-banner{
+    
+    
+    background-color: #2f86d6;
+    
+    padding: 50px 0;
+   
+
+}
+.secao-banner .container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.secao-banner .container .container-texto{
+    max-width: 40%;
+    min-width: 375px;
+    padding: 10px 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 350px;
+}
+.secao-banner .container .container-texto p{
+    line-height: 25px;
+  
+  
+}
+.secao-banner .container .container-texto h2{
+    font-size: 26px;
+}
+
+.secao-banner .container.container-imagem{
+    max-width: 60%;
+   flex: 1 1 468px;
+   
+}
+.secao-banner .container .container-imagem img{
+    width: 100%;
+    height: 100%;
+   
+}

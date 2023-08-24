@@ -1,12 +1,12 @@
 /*
 classes e tags: 
-header, ul.links, li, a
+header#topo, ul.links, li, a
 //
 section.banner, h1
 //
-section#informacoes, div.textos h2 p, div.parallax-1 h3
+section#informacoes, div.textos h2 p, div.parallax-1 h3 div.parallax-2 h3
 //
-section#contatos h2 iframe p p p, div.parallax-2 h3
+section#contatos h2 iframe p p p, 
 //
 section#horarios h2 ul+7li h3 p
 //
@@ -14,3 +14,297 @@ footer p.icone-topo a img, p, p
 
 
 */
+:root{
+    --color-text-one:#c4a47c;
+    --color-text-two:#666;
+    --background-color-menu:#604829;
+    --color-white:#fff;
+    --color-border:#acacac;
+    --color-black:#000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    box-sizing: border-box;
+   
+ 
+}
+
+/*TOPO*/
+header#topo{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: var(--background-color-menu);
+    
+}
+header#topo img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 150px;
+}
+header#topo .links .lista{
+    display: inline;
+    position: absolute;
+    padding: 0 10px;
+    top: 20px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+    
+
+}
+header#topo .links  .horarios{
+    right: 120px;
+}
+header#topo .links  .contatos{
+    right: 247px;
+}
+header#topo .links  .informacoes{
+    right: 347px;
+}
+header#topo .links .lista a{
+    text-decoration: none;
+    color: var(--color-text-one);
+    font-size: 14px;
+    text-shadow: 1.2px 2.2px 0.5px var(--color-black);
+}
+/*banner*/
+section.banner{
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    background-image: url(../img/parallax-imagem1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+   
+
+}
+section.banner h1{
+    position: absolute;
+    width: 100%;
+    top: 40vh;
+    color: var(--color-white);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'franuces', serif;
+    
+}
+/*section informacoes*/
+section#informacoes{
+    position: relative;
+    width: 100%;
+}
+section#informacoes div.textos{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 45px;
+
+}
+section#informacoes div.textos h2{
+  
+    color: var(--color-text-one);
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+   
+
+}
+section#informacoes div.textos p{
+    margin: 0 auto;
+    color: var(--color-text-two);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 21%;
+    line-height: 24px;
+    width: 890px;
+    min-width: 100%;
+   
+   
+
+}
+section#informacoes div.parallax-1,
+section#informacoes div.parallax-2{
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding-top: 140px;
+   
+}
+section#informacoes div.parallax-1{
+    background-image: url(../img/parallax-imagem2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#informacoes div.parallax-2{
+    background-image: url(../img/parallax-imagem3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#informacoes div.parallax-1 h3,
+section#informacoes div.parallax-2 h3{
+    margin: 0 auto;
+    font-family: 'frauces', serif ;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    background-color: var(--background-color-menu);
+    color: var(--color-white);
+    width: 340px;
+    padding: 10px 20px;
+
+
+}
+/*section contatos*/
+section#contatos{
+    height:100vh ;
+    background-image: url(../img/parallax-imagem4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: var(--color-white);
+    position: relative;
+}
+section#contatos h2{
+    color: var(--color-white);
+    background-color: var(--background-color-menu);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 350px;
+    font-family: 'Lato', sans-serif;
+    top: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    
+  
+    
+   
+}section#contatos iframe{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    top: 30%;
+    
+    
+   
+}
+section#contatos .box-contatos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color-menu);
+    color: var(--color-white);
+    font-family: 'frauces', serif ;
+}
+section#contatos .box-contatos p{
+    line-height: 26px;
+    text-shadow: #000000 1px 2px 3px;
+}
+section#contatos .box-contatos a{
+    text-decoration: none;
+    color:var(--color-white) ;
+}
+
+    
+
+
+/*section horarios*/
+section#horarios{
+   
+ 
+    background-image: url(../img/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    padding: 100px 20px;
+    margin: 0 auto;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+section#horarios h2{
+ 
+    margin-bottom: 30px;
+   
+    
+}
+section#horarios .lista{
+    width: 100%;
+    max-width: 768px;
+
+   
+   
+    
+}
+section#horarios .lista li div{
+    height: 1px;
+    background-color: var(--color-border);
+    flex: 1 1 auto;
+    
+   
+}
+section#horarios .lista li {
+    margin-bottom: 15px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  
+ 
+
+}
+section#horarios .lista li h3{
+    flex: 0 1 100px;
+}
+section#horarios .lista li   span{
+    color: var(--color-text-one);
+   
+
+}
+section#horarios .lista li p,section#horarios .lista li span{
+text-align: right;
+flex: 0 1 120px;
+  
+}
+
+
+    
+
+
+
+/*icone topo*/
+.footer{
+    position: relative;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+    line-height: 30px;
+   padding-top: 10px;
+  
+}
+
+.footer p.icone-topo img {
+  position:absolute;
+  width: 60px;
+   right: 50px;
+   bottom: 80px;
+   
+    
+}

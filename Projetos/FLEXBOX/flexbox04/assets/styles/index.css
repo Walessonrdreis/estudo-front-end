@@ -1,0 +1,158 @@
+/*
+.container-rodape
+.container-rodape .container-imagem
+.container-rodape .container-imagem img
+.container-rodape .container-contato
+.container-rodape .container-contato h3
+.container-rodape .container-contato p
+.container-rodape .container-descricao img
+.container-rodape .container-descricao p
+.container-rodape .container-descricao a
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+
+}
+/*body{
+    margin: 0 auto;
+}
+.container-rodape{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.container-rodape .container-imagem{
+    width: 100px;
+    margin-bottom: 30px;
+
+}
+.container-rodape .container-imagem img{
+    width: 100%;
+}
+.container-rodape .container-contato{
+  
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+.container-rodape .container-contato div{
+    width: 28vw;
+    height: 100px;
+    max-width: 350px;
+    max-height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    border: 1px solid #ccc;
+    flex: 1 1 250px;
+    border-radius: 5px;
+    
+ 
+    
+}
+
+.container-rodape .container-descricao{
+   
+    width: 100vw;
+    max-width: 1024px;
+    
+    padding: 58px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 50px;
+    flex: 1 1 10px;
+}
+
+.container-rodape .container-descricao a{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/seta-para-cima.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    right: 0px;
+    bottom: 110px;
+}
+.container-rodape .container-descricao div img{
+    border: 1px solid #dddddd;
+    width: 3vw;
+    min-width: 30px;
+
+}*/
+.container-rodape {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: black;
+  }
+  .container-imagem {
+    width: 100px;
+  }
+  .container-imagem img {
+    width: 100%;
+    height: 100%;
+  }
+  .container-contato {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container-contato div {
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+    flex: 1 1 240px;
+    text-align: center;
+  }
+  .container-descricao {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .container-descricao img{
+    width: 40px; 
+  }
+  .container-descricao a {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+  }

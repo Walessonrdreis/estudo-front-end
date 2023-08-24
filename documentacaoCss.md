@@ -13,12 +13,159 @@
 1. <strong><code>transition:</code></strong> Permite definir a transição entre dois estados de um elemento, hover e outros como focus, active etc. no estado principal ele anima tanto na ida quant na volta(estado antes do hover etc)
 ___
 2. <strong><code>filter</code></strong> usados para adicionar efeitos de filtro
+
+## **FLEXBOX** ##
 ___
-3. **`flex-direction`** alinha itens, pode receber valores: <strong><em>column, column-reverse, row, row-reverse</em></strong>
+1. <strong><code>Display: flex</code></strong>
+2. `flex-direction`
+ alinha itens, pode receber valores: <strong><em>column: Posiciona os elementos em colunas de cima para baixo. column-reverse: Posiciona os elementos no sentido inverso do column. row: Valor padrão, posiciona os elementos na horizontal da esquerda para a direita, row-reverse posiciona os elementos na horizontal no sentido inverso, ao row </em></strong>
+A sintaxe da propriedade `flex-direction` é a seguinte:
+
+```css
+flex-direction: valor;
+```
+
+Os valores possíveis para a propriedade `flex-direction` são:
+
+ `row`: O valor padrão. Os itens flexíveis são colocados na direção horizontal, da esquerda para a direita.
+
+ `row-reverse`: Os itens flexíveis são colocados na direção horizontal, da direita para a esquerda.
+
+ `column`: Os itens flexíveis são colocados na direção vertical, de cima para baixo.
+
+ `column-reverse`: Os itens flexíveis são colocados na direção vertical, de baixo para cima.
+
+Aqui está um exemplo de uso da propriedade `flex-direction`:
+
+```css
+.container {
+  display: flex;
+  flex-direction: row; /* ou column, row-reverse, column-reverse */
+}
+```
 ___
-4. <strong><code>justify-content</code></strong> Alinha os itens flex do recipiente quando não ocupam todo espaço disponível no eixo principal(horizontal(x)) seus valores são <strong><em>flex-start, flex-end, center, space-between, apace-around, space-evenly, initial, inherit</em></strong>
+3. <strong><code>justify-content</code></strong> Objetivo:</em></strong>Gerar um espaçamento entre os elementos de uma container e também definir seus posicionamentos. seus valores são <strong><em>flex-start:</em></strong> Elementos alinhados a esquerda do container: valor padrão. flex-end:</em></strong> Elementos alinhados a direita do container. <strong><em>center:</em></strong> Elementos alinhados ao centro do container. <strong><em>space-between:</em></strong> Distribui os elementos no container sem margem. <strong><em>apace-around:</em></strong> Distribui os elementos no container adicionando uma pequena margem. <strong><em>space-evenly:</em></strong> Distribui os elementos com espaço igual, incluindo a margem
 <hr/>
 
+4. <strong><code>flex-wrap:</code></strong> Quebra linha do container quando a largura da tela diminui.
+
+A sintaxe da propriedade `flex-wrap` é a seguinte:
+
+```css
+flex-wrap: valor;
+```
+
+Os valores possíveis para a propriedade `flex-wrap` são:
+
+ `nowrap`: O valor padrão. Os itens flexíveis são colocados em uma única linha (ou coluna) e podem ser redimensionados para caber na linha.
+
+ `wrap`: Os itens flexíveis são quebrados em várias linhas (ou colunas) se não couberem em uma única linha (ou coluna).
+
+ `wrap-reverse`: Os itens flexíveis são quebrados em várias linhas (ou colunas) se não couberem em uma única linha (ou coluna), mas a ordem é invertida.
+
+Aqui está um exemplo de uso da propriedade `flex-wrap`:
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap; /* ou nowrap, wrap-reverse */
+}
+```
+
+<strong><code>flex-flow:</code></strong>
+Funciona como uma forma abreviada das propriedades `flex-direction` e `flex-wrap`
+
+A sintaxe da propriedade `flex-flow` é a seguinte:
+
+```css
+flex-flow: <flex-direction> <flex-wrap>;
+```
+
+Você deve especificar um valor para a direção (como `row`, `column`, etc.) e um valor para a quebra (como `nowrap`, `wrap`, etc.).
+
+Aqui estão alguns exemplos de uso da propriedade `flex-flow`:
+
+```css
+.container {
+  display: flex;
+  flex-flow: row wrap; /* Direção: Horizontal, Quebra: Várias linhas */
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap; /* Direção: Vertical, Quebra: Sem quebra */
+}
+```
+
+5. <strong><code>Align-items</code></strong> Define como os elementos serão posicionados dentro do container
+
+
+A sintaxe da propriedade `align-items` é a seguinte:
+
+```css
+align-items: valor;
+```
+
+Os valores possíveis para a propriedade `align-items` são:
+
+`flex-start`: Alinha os itens flexíveis no início do contêiner.
+
+`flex-end`: Alinha os itens flexíveis no final do contêiner.
+
+`center`: Alinha os itens flexíveis no centro vertical do contêiner.
+
+`baseline`: Alinha os itens flexíveis com a linha-base (linha de base) do texto.
+
+`stretch`: Valor padrão. Os itens flexíveis são esticados para preencher a altura do contêiner.
+
+Aqui está um exemplo de uso da propriedade `align-items` para alinhamento vertical:
+
+```css
+.container {
+  display: flex;
+  align-items: center; /* Ou flex-start, flex-end, baseline, stretch */
+}
+```
+`OBSERVAÇão` O align-itens só tera efeito se o container tiver uma altura definida (Para cards posicionados em linha) 
+### Propriedades exclusivas para elementos filhos ###
+
+Essa propriedades são de uso exclusivo dos elementos filhos, ou seja, elas deven ser aplicadas no código CSS dos card (ou no CSS do conteúdo dos cards)
+
+6. <strong><code>flex-grow</code></strong> Usada para evitar buracos no container, quando a quebra de linha, e definir o tamanho que um elemento filho tera em relação aos outros elementos filhos quando queremos que um card seja maior que outros
+
+
+A sintaxe da propriedade `flex-grow` é a seguinte:
+
+```css
+flex-grow: valor;
+```
+
+O valor é um número que representa a proporção de espaço extra que o item flexível ocupará em relação aos outros itens flexíveis dentro do mesmo contêiner. Quanto maior o valor, mais espaço extra o item flexível ocupará em relação aos outros.
+
+Aqui está um exemplo de uso da propriedade `flex-grow`:
+
+```css
+.item {
+  flex-grow: 1; /* ou qualquer outro valor numérico */
+}
+```
+<strong><code>flex-shrink</code></strong> Indica como um elemento filho terá seu tamanho reduzido para continuar a caber em um container 
+
+A sintaxe da propriedade `flex-shrink` é a seguinte:
+
+```css
+flex-shrink: valor;
+```
+
+
+Aqui está um exemplo de uso da propriedade `flex-shrink`:
+
+```css
+.item {
+  flex-shrink: 0.5; /* ou qualquer outro valor numérico */
+}
+```
+7. <strong><code>flex-basis</code></strong> 
 5. <strong><code>text-transform</code></strong> muda o formato das letras entre maiúsculas, minusculas etc.
 
 6. <strong><code>letter-spacing</code></strong> espaço entre as letras
