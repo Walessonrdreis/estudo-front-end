@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Short+Stack&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto 10%;
+    background-image: url(../../../../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Short Stack', cursive;
+}
+
+li.requisitos {
+
+    list-style: none;
+    margin-left: 20px;
+}
+
+h3 {
+    border: 2px solid #fff;
+    color: aliceblue;
+    background-color: brown;
+    width: 40vw;
+    min-width: 500px;
+    border-radius: 0 20px 0 0;
+    margin-left: -150px;
+    padding-left: 150px;
+
+
+
+}
+
+h3 span {
+    margin-right: 5px;
+}
+
+.requisitos .req-i ,
+.requisitos .req-ii  {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.requisitos .req-i  li,
+.requisitos .req-ii li {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.requisitos ol li span {
+
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    color: aliceblue;
+    background-color: brown;
+}
+
+
+  
+
+ul.req-leituras {
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+
+
+}
+
+.reqs,
+.req-leituras-biblicas {
+    width: 100%;
+
+    display: flex;
+    align-items: first baseline;
+
+
+}
+
+h4 {
+    width: 85%;
+
+}
+
+.sub-list {
+    border: 1px solid;
+    width: 500px;
+}
